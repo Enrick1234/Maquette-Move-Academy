@@ -1,0 +1,247 @@
+/* - textes : #363636
+- violet foncé : #7e4a7c
+font-family: 'Economica', sans-serif;
+- violet moyen : #b878b5
+- violet fond clair (tableau et formulaire) : #ffeefe */
+
+
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+main {
+    width: 1200px;
+    margin: 0px auto;
+}
+h1, h2, h3, nav, button {
+    font-family: 'Economica', sans-serif;
+}
+header img {
+    margin: 0px auto;
+    display: block;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    height: 50px;
+    background-color: #7e4a7c;
+}
+header ul li {
+    padding-top: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 24px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+}
+header ul li a:hover{
+    background-color: white;
+    color: #7e4a7c;
+    transition: 0.4s;
+}
+main h1 {
+    text-align: center;
+    color: #7e4a7c;
+    font-size: 50px;
+}
+
+
+/* *************************PREMIERE SECTION******************* */
+
+
+.aboutTheSchool .cards{
+    display: flex;
+}
+
+h2 {
+    color: #b878b5;
+    font-size: 40px;
+}
+
+.aboutTheSchool .groupe{
+    width: 370px;
+    height: 370px;
+}
+.aboutTheSchool article{
+    width: 600px;
+    padding: 0 20px;
+    padding-right: 30px;
+}
+.aboutTheSchool article p:first-child{
+    font-style: italic;
+    color: #7e4a7c;
+}
+
+
+.more {
+    padding: 12px 18px;
+    background-color: #7e4a7c;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.why {
+    width: 500px;
+}
+
+h3 {
+    margin-top: 7px;
+    color: #7e4a7c;
+    font-size: 30px;
+    
+}
+.why ul {
+    list-style: none;
+    padding: 0;
+}
+.why ul li{
+    line-height: 40px;
+}
+
+
+
+/* *************************DEUXIEME SECTION******************* */
+
+.julia img {
+    width: 270px;
+    height: 270px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.teachers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.julia {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    justify-content: space-around;
+}
+.description {
+    font-style: italic;
+    color: #7e4a7c;
+    
+}
+
+
+/* *************************TROISIEME SECTION******************* */
+
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+    border-collapse: collapse;
+}
+.tete {
+    background-color: #7e4a7c;
+    color: white;
+}
+th, td{
+    border: 1px solid #b878b5;
+    text-align: center;
+  }
+.vide {
+    background-color: #ffeefe;
+}
+
+
+  
+/* *************************QUATRIEME SECTION******************* */
+
+
+
+form {
+    border: 1px solid black;
+    height: 290px;
+    
+}
+form .donnee {
+    background-color: #ffeefe;
+    height: 80px;
+    margin: 20px;
+    display: flex;
+    
+}
+form .donnee input {
+    width: 350px;
+    height: 24px;
+}
+form .name {
+    padding: 25px 10px;
+    margin-right: 190px;
+    color: #7e4a7c;
+    font-weight: bold;
+}
+
+form .email {
+    padding: 25px 10px;
+    color: #7e4a7c;
+    font-weight: bold;
+}
+
+form .lesson {
+    background-color: #ffeefe;
+    height: 80px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+form .lesson select {
+    width: 250px;
+    height: 30px;
+}
+form label {
+    margin-top: 20px;
+    color: #7e4a7c;
+    font-weight: bold;
+}
+
+.session, .day, .teacher {
+    margin-top: 25px;
+}
+
+form button {
+    margin-left: 550px;
+}
+
+
+/* *************************QUATRIEME SECTION******************* */
+
+
+.reseaux {
+    margin-top: 50px;
+    width: 100%;
+    height: 60px;
+    background-color: #7e4a7c;
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+.reseau {
+    background-color: rgba(240, 248, 255, 0);
+    width: 240px;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.reseau i {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
